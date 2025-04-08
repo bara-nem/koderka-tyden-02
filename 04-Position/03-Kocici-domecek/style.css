@@ -24,7 +24,7 @@ h1 {
 		pak mohla pozicovat kočky v rámci domečku
 		a ne celé stránky
 	*/
-
+position: relative;
 
 }
 
@@ -35,6 +35,9 @@ h1 {
 		kočka si svoje zamilované dopisy
 		nejraději čte v levém dolním rohu domečku
 	*/
+	position: absolute;
+	bottom: 0;
+	left: 0;
 
 }
 
@@ -46,6 +49,9 @@ h1 {
 		uprostřed domečku, protože tam má na
 		dovádění nejvíc místa
 	*/
+	position: absolute;
+	left: 38%;
+	bottom: 35%;
 
 }
 
@@ -59,7 +65,9 @@ h1 {
 		nebyl její levý horní roh, ale její střed
 		(tj. vyčuhuje z domečku ven)
 	*/
-
+	position: absolute;
+	top: -70px;
+	left: -60px;
 }
 
 .sluchatka {
@@ -72,6 +80,9 @@ h1 {
 		domečku a 30 px od horní hrany domečku - potřebuje
 		totiž na svůj tanec trochu prostoru
 	*/
+	position: absolute;
+	top: 30px;
+	right: 30px;
 
 }
 
@@ -82,5 +93,7 @@ h1 {
 		kočka s myší je unavená, a proto chce jít
 		spát do pravého dolního rohu domečku
 	*/
-
+	position: absolute;
+bottom: 0;
+right: 0;
 }
